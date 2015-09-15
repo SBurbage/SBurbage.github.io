@@ -1,0 +1,29 @@
+.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover,.nav>li>a:focus,.nav>li>a:hover {
+	background-color:#b5101a;
+}
+
+.box {
+	height:2000px;
+}
+
+body {
+	padding-top:70px;
+	background:#C7101a;
+	color:#fff;
+}
+
+.jumbotron img {
+	width:100%;
+}
+
+.jumbotron h1,h2,h3,h4,h5,h6,p,li {
+	color:#000;
+}
+
+.nav-pills a {
+	color:#fff;
+}
+
+.nav-pills {
+	background:#C7101A;
+}

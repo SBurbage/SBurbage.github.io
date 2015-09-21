@@ -27,7 +27,19 @@ body {
 .nav-pills {
 	background:#C7101A;
 }
-.view {
-    list-style-type:none;
-    font-size:1.5em;
+#canvas {
+    width:98%;
+    border: 2px solid black;
+    height:35vh;
+    overflow:hidden;
+    overflow-y:scroll;
+}
+.blob {
+    width:10%;
+    height:5vh;
+    border:2px solid red;
+    display:inline-block;
+    background-color:blue;
+    padding:none;
+    margin:none;
 }

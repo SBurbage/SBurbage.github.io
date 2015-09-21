@@ -1,8 +1,9 @@
-var main = function() {
-  $('#views').click(function() {
-    var post = $('.boxy').val();
-    $('<li>').text(post).prependTo('.views').addClass('view');
-      $('.boxy').val('');
-  });
+var main = function () {
+    $('#fill').click(function () {
+        $('<div>').appendTo('#canvas').addClass('blob');
+    });
+    $('#clear').click(function(){
+        $('#canvas').empty();
+    });
 };
 $(document).ready(main);

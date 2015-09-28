@@ -1,5 +1,5 @@
 .nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover,.nav>li>a:focus,.nav>li>a:hover {
-	background-color:#b5101a;
+	background-color:#df7c7c;
 }
 
 .box {
@@ -8,8 +8,8 @@
 
 body {
 	padding-top:70px;
-	background:#C7101a;
-	color:#fff;
+	background:#ff7c7c;
+	color:#000;
 }
 
 .jumbotron img {
@@ -21,16 +21,9 @@ body {
 }
 
 .nav-pills a {
-	color:#fff;
+	color:#000;
 }
 
 .nav-pills {
-	background:#C7101A;
-}
-#canvas {
-    width:98%;
-    border: 2px solid black;
-    height:35vh;
-    overflow:hidden;
-    overflow-y:scroll;
+	background:#ff7c7c;
 }

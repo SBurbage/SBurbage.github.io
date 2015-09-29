@@ -6,6 +6,38 @@
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="/css/index.css" rel="stylesheet" type="text/css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script>
+		var main = function () {
+    $('.counter').text('140');
+    $('#submit').addClass('disabled');
+    $('#submit').click(function () {
+        var text = $('#listbox').val();
+        $('<li>').text(text).prependTo('.list').addClass('listitem-active listitem').end()
+            .siblings().removeClass('listitem-active');
+        $('<span class="glyphicon glyphicon-floppy-remove btn" id="minus">').appendTo('.listitem-active');
+        $('#listbox').val('');
+        $('.counter').text('140');
+        $('#submit').addClass('disabled');
+        $('.btn').click(function () {
+            $(this).hide();
+            $(this).parent().hide();
+        });
+    });
+    $('#listbox').keyup(function () {
+        var listlength = $(this).val().length;
+        var listleft = 140 - listlength;
+        $('.counter').text(listleft);
+        if (listleft == 140) {
+            $('#submit').addClass('disabled');
+        } else if (listleft < 0) {
+            $('#submit').addClass('disabled');
+        } else {
+            $('#submit').removeClass('disabled');
+        }
+    });
+};
+$(document).ready(main);
+</script>
 	<script src="/js/Index.js"></script>
 	<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
 	

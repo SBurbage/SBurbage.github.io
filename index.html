@@ -10,14 +10,21 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
-<body style="padding:0 70px 0 70px;">
+<body style="padding:70px 0 70px 0;">
     <div class="container-fluid">
         <ul class="nav nav-tabs navbar-fixed-top">
             <li class="active">
                 <a data-toggle="tab" href="#home">Home</a>
             </li>
+            <li>
+                <a href="glossary" data-toggle="tab">
+                    Glossary
+                </a>
+            </li>
         </ul>
-        <header>
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <header>
             <h1>Sburbage.GitHub.io</h1>
             <p></p>
             <p class="view"><a href="https://github.com/SBurbage">View My
@@ -79,12 +86,17 @@
             "https://github.com/contact">contact support</a> and we’ll help you
             sort it out.</p>
         </section>
-        <footer>
-            <p><small>Hosted on GitHub Pages &mdash; Theme by <a href=
-            "https://github.com/orderedlist">orderedlist</a></small></p>
-        </footer>
-    </div>
-    <script src="javascripts/scale.fix.js">
+        </div>
+        <div id="glossary" class="tab-pane fade">
+            <h1 class="page-header">Glossary</h1>
+        </div>
+          <footer>
+               <p><small>Hosted on GitHub Pages &mdash; Theme by <a href=
+               "https://github.com/orderedlist">orderedlist</a></small></p>
+         </footer>
+        
+      </div>
+      <script src="javascripts/scale.fix.js">
     </script> 
     <script src="javascripts/jquery.js">
     </script> 

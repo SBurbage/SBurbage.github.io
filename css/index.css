@@ -1,4 +1,4 @@
-.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover,.nav>li>a:focus,.nav>li>a:hover {
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover,.nav>li>a:focus,.nav>li>a:hover {
 	background-color:#302262;
 }
 
@@ -20,11 +20,11 @@ body {
 	color:#fff;
 }
 
-.nav-pills a {
+.nav-tabs a {
 	color:#fff;
 }
 
-.nav-pills {
+.nav-tabs {
 	background:#502262;
 }
 #submit {

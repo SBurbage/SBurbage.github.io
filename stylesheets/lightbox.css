@@ -29,6 +29,7 @@ body:after {
   display: block;
   height: auto;
   max-width: 100%;
+  z-index:10000;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;

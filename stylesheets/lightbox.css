@@ -1,10 +1,4 @@
 /* Preload images */
-.btn {
-  white-space:normal;
-}
-.dropdown-menu>li{
-  white-space:normal;
-}
 body:after {
   content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
   display: none;
@@ -24,7 +18,7 @@ body:after {
 .lightbox {
   position: absolute;
   left: 0;
-  max-width: 100vw;
+  width: 100%;
   z-index: 10000;
   text-align: center;
   line-height: 0;
@@ -34,7 +28,7 @@ body:after {
 .lightbox .lb-image {
   display: block;
   height: auto;
-  max-width: 99vw;
+  max-width: inherit;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;

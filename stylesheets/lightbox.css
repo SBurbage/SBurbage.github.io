@@ -18,7 +18,7 @@ body:after {
 .lightbox {
   position: absolute;
   left: 0;
-  width: 100%;
+  max-width: 100vw;
   z-index: 10000;
   text-align: center;
   line-height: 0;
@@ -28,8 +28,7 @@ body:after {
 .lightbox .lb-image {
   display: block;
   height: auto;
-  max-width: 100%;
-  z-index:10000;
+  max-width: 99vw;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;

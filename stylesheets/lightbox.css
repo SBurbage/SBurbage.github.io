@@ -2,6 +2,9 @@
 .btn {
   white-space:normal;
 }
+.dropdown-menu>li{
+  white-space:normal;
+}
 body:after {
   content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
   display: none;

@@ -1,4 +1,7 @@
 /* Preload images */
+.box {
+    height:500px;
+}
 .btn {
     white-space: normal;
 }

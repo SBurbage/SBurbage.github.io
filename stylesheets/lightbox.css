@@ -2,7 +2,7 @@
 .box {
     height:500px;
 }
-.btn {
+.dropdown>.btn {
     white-space: normal;
     width: 100%;
 }

@@ -1,10 +1,12 @@
-/* Preload images */
+/*Extra Page CSS*/
 .box {
     height:500px;
 }
 .btn {
     white-space: normal;
+    width: 100%;
 }
+/* Preload images */
 body:after {
   content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
   display: none;

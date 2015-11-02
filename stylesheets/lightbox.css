@@ -1,4 +1,7 @@
 /*Extra Page CSS*/
+.dropdown-menu>li>a{
+    white-space:normal;
+}
 .box {
     height:500px;
 }

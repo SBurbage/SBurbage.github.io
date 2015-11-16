@@ -1,8 +1,8 @@
 /*Extra Page CSS*/
 @font-face {
     font-family: 'Glyphicons Regular';
-    src: url(http://glyphicons.com/fonts/glyphicons-regular.eot);
-    src: url(http://glyphicons.com/fonts/glyphicons-regular.eot) format("embedded-opentype"),url(http://glyphicons.com/fonts/glyphicons-regular.woff2) format("woff2"),url(http://glyphicons.com/fonts/glyphicons-regular.woff) format("woff"),url(http://glyphicons.com/fonts/glyphicons-regular.ttf) format("truetype"),url(http://glyphicons.com/fonts/glyphicons-regular.svg) format("svg");
+    src: url(https://glyphicons.com/fonts/glyphicons-regular.eot);
+    src: url(https://glyphicons.com/fonts/glyphicons-regular.eot) format("embedded-opentype"),url(https://glyphicons.com/fonts/glyphicons-regular.woff2) format("woff2"),url(https://glyphicons.com/fonts/glyphicons-regular.woff) format("woff"),url(https://glyphicons.com/fonts/glyphicons-regular.ttf) format("truetype"),url(https://glyphicons.com/fonts/glyphicons-regular.svg) format("svg");
 }
 
 .dropdown-menu>li>a{

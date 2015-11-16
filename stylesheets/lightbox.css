@@ -1,9 +1,10 @@
 /*Extra Page CSS*/
 @font-face {
     font-family: 'Glyphicons Regular';
-    src: url(../fonts/glyphicons-regular.eot);
-    src: url(../fonts/glyphicons-regular.eot) format("embedded-opentype"),url(../fonts/glyphicons-regular.woff2) format("woff2"),url(../fonts/glyphicons-regular.woff) format("woff"),url(../fonts/glyphicons-regular.ttf) format("truetype"),url(../fonts/glyphicons-regular.svg) format("svg");
+    src: url(http://glyphicons.com/fonts/glyphicons-regular.eot);
+    src: url(http://glyphicons.com/fonts/glyphicons-regular.eot) format("embedded-opentype"),url(http://glyphicons.com/fonts/glyphicons-regular.woff2) format("woff2"),url(http://glyphicons.com/fonts/glyphicons-regular.woff) format("woff"),url(http://glyphicons.com/fonts/glyphicons-regular.ttf) format("truetype"),url(http://glyphicons.com/fonts/glyphicons-regular.svg) format("svg");
 }
+
 .dropdown-menu>li>a{
     white-space:normal;
 }

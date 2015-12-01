@@ -274,18 +274,6 @@
                 text-align:center;
             }
             </style>
-            <script>
-                var main = function () {
-                    $('.number').click(function () {
-                        $(this).fadeOut();
-                        $(this).siblings().fadeIn();
-                    });
-                    $('.early').click(function () {
-                        alert("It's too early for that day!");
-                    });
-                };
-            $(document).ready(main);
-            </script>
             <h1>D2N2 Advent Calendar</h1>
             <div class="advent-calendar">
                 <table>
@@ -388,5 +376,6 @@
 <script src="javascripts/jquery.js"></script> 
 <script src="javascripts/bootstrap.js"></script> 
 <script src="javascripts/lightbox.js"></script>
+<script src="javascripts/advent.js"></script>
 </body>
 </html>

@@ -60,10 +60,19 @@
   top:0%;
   left:50%;
   margin-top:-12%;
-  background-color:gold;
+  background-color:goldenrod;
   border-radius:50%;
   box-shadow:0 0 40px goldenrod;
   border:2px solid goldenrod;
+}
+.earth-orbit{
+  width:27%;
+  padding-top:27%;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-top:-13.5%;
+  margin-left:-13.5%;
 }
 @-webkit-keyframes spin-clock {
   0% {

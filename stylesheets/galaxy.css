@@ -22,14 +22,14 @@
 .mercury {
   width: 4%;
   height:4%;
-  background-color: coral;
+  background-color: silver;
   position:absolute;
   top:0%;
   left:50%;
   margin-top: -4%;
   border-radius: 50%;
-  border: 2px solid chocolate;
-  box-shadow: 0 0 10px chocolate;
+  border: 2px solid slategrey;
+  box-shadow: 0 0 10px slategrey;
 }
 .mercury-orbit {
   width: 26.39%;

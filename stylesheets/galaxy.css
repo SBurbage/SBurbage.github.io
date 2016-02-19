@@ -18,7 +18,7 @@
   border-radius: 50%;
   border: 2px solid orange;
   box-shadow: 0 0 64px orange;
-  }
+}
 .mercury {
   width: 4%;
   height:4%;
@@ -43,14 +43,16 @@
   animation:spin-clock 5s linear infinite;
 }
 .venus-orbit {
-  width: 400px;
-  height: 400px;
+  width: 26.72%;
+  height: 26.72%;
   border-radius:50%;
   position:absolute;
-  left:42%;
-  top:38%;
+  left:50%;
+  top:50%;
+  margin-top:-13.36%;
+  margin-left:-13.36%;
   animation:spin-clock 7s linear infinite;
-  }
+}
 .venus{
   width:50px;
   height:50px;
@@ -59,10 +61,10 @@
   left:40%;
   margin-top:-5%;
   margin-left:-10%;
-  background-color:olive;
+  background-color:gold;
   border-radius:50%;
-  box-shadow:0 0 40px olivedrab;
-  border:2px solid olivedrab;
+  box-shadow:0 0 40px goldenrod;
+  border:2px solid goldenrod;
 }
 @-webkit-keyframes spin-clock {
   0% {

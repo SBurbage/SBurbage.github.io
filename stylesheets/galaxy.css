@@ -8,12 +8,12 @@
 .sun {
   z-index:1000;
   position: absolute;
-  width:30%;
-  padding-top:30%;
+  width:20%;
+  padding-top:20%;
   left:50%;
   top:50%;
-  margin-top:-15%;
-  margin-left:-15%;
+  margin-top:-10%;
+  margin-left:-10%;
   background-color: yellow;
   border-radius: 50%;
   border: 2px solid orange;
@@ -26,20 +26,20 @@
   position:absolute;
   top:0%;
   left:50%;
-  margin-top: -2%;
+  margin-top: -4%;
   border-radius: 50%;
   border: 2px solid chocolate;
   box-shadow: 0 0 10px chocolate;
 }
 .mercury-orbit {
-  width: 30.39%;
-  padding-top:30.39%;
-  margin-top:-15.195%;
-  margin-left:-15.195%;
+  width: 26.39%;
+  padding-top:26.39%;
+  margin-top:-13.195%;
+  margin-left:-13.195%;
   border-radius:50%;
   position:absolute;
   left:50%;
-  top:50%%;
+  top:50%;
   animation:spin-clock 5s linear infinite;
 }
 .venus-orbit {

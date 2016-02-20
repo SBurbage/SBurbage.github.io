@@ -77,7 +77,10 @@
 .earth{
 width:12.5%;
 height:12.5%;
-background-color:sky-blue;
+background-color:skyblue;
+border-radius:50%;
+animation:spin-clock 2.4s linear infinite;
+background-image: url("http://vignette1.wikia.nocookie.net/barsoom/images/1/1e/Earth.png/revision/latest?cb=20110912212924");
 left:50%;
 top:0%;
 position:absolute;

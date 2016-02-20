@@ -74,6 +74,14 @@
   margin-top:-13.5%;
   margin-left:-13.5%;
 }
+.earth{
+width:12.5%;
+height:12.5%;
+background-color:sky-blue;
+left:50%;
+top:50%;
+position:absolute;
+}
 @-webkit-keyframes spin-clock {
   0% {
       -webkit-transform: rotate(0deg);

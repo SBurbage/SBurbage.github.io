@@ -52,6 +52,7 @@
   margin-top:-13.36%;
   margin-left:-13.36%;
   animation:spin-clock 7s linear infinite;
+  animation-direction:reverse;
 }
 .venus{
   width:12%;
@@ -89,11 +90,24 @@ position:absolute;
   width:27%;
   padding-top:27%;
   position:absolute;
-  border-raius:50%;
+  border-radius:50%;
   left:50%;
   top:50%;
   margin-top:-13.5%;
   margin-left:-13.5%;
+  animation:spin-clock 7.5s linear infinite;
+}
+.mars-orbit{
+  width:29%;
+  padding-top:29%;
+  position:absolute;
+  border-radius:50%;
+  left:50%;
+  top:50%;
+  margin-top:-14.5%;
+  margin-left:-14.5%;
+  animation:spin-clock 8s linear infinite;
+  animation-direction:reverse;
 }
 div>img{
   width:100%;

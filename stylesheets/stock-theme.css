@@ -1,7 +1,7 @@
-body{
+.container-fluid{
   padding:70px 0 70px 0;
   background-color: rgba(65,102,245,0.6);
 }
-.container-fluid> *{
+.row-fluid > * {
   background-color: rgba(245,209,65,0.6);
 }

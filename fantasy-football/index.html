@@ -17,10 +17,24 @@
     <script src="https://code.jquery.com/jquery-1.12.3.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <style>
-      .img-thumbnail{width:64px;height:64px;}
-      .table > tbody > tr > td {vertical-align: middle;}
-      .lb-image{width:20vw!important;height:20vw!important;}
-      .table >tbody > tr > *{width:7.69%;}
+      .img-thumbnail {
+        width: 64px;
+        height: 64px;
+      }
+      
+      .table > tbody > tr > td {
+        vertical-align: middle;
+      }
+      
+      .lb-image {
+        width: 20vw!important;
+        height: 20vw!important;
+      }
+      
+      .table >tbody > tr > * {
+        width: 7.69%;
+      }
+
     </style>
     <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
@@ -87,377 +101,403 @@
             <div class="tab-pane fade in active" id="prem">
               <div class="container-fluid">
                 <div class="well">
-  <div class="row">
-  	<h2 class="text-center">Premiership</h2>
-  	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-  <h3>Latest News</h3>
-  <ul class="list-group">
-    <li class="list-group-item">
-      <div class="media">
-      	<div class="media-left media-top">
-      		<a href="http://www.bbc.co.uk/sport/football/36830068">
-        		<img class="img-thumbnail media-object" src="http://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/CB24/production/_90440025_utdrealmichigan_getty.jpg">
-		</a>
-	</div>
-        <div class="media-body">
-          <h4>Premier League pre-season: How far is your club travelling?</h4><small>Jul 19, 2016</small>
-          <p>Premier League teams will clock up an estimated 172,413 miles in total during pre-season for friendlies and tours.</p>
-          <p>Tottenham travel furthest with 22,468 miles, including a trip to Australia, followed by Chelsea's 14,345 miles.</p>
-          <a href="http://www.bbc.co.uk/sport/football/36830068">Click here for the full story</a>
-        </div>
-      </div>
-    </li>
-    <li class="list-group-item">
-      <div class="media">
-        <div class="media-left media-top"><a href="http://www.mirror.co.uk/sport/football/transfer-news/transfer-news-live-manchester-united-8440406">
-   <img class="img-thumbnail media-object" src="http://www.mirror.co.uk/incoming/article4473393.ece/ALTERNATES/s510b/Geronimo-Rulli.jpg"></a></div>
-        <div class="media-body">
-          <h4>Transfer news LIVE: Manchester United, City, Arsenal, Liverpool, Chelsea latest plus every done deal</h4><small>Jul 19, 2016</small>
+                  <div class="row">
+                    <h2 class="text-center">Premiership</h2>
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                      <h3>Latest News</h3>
+                      <ul class="list-group">
+                        <li class="list-group-item">
+                          <div class="media">
+                            <div class="media-left media-top">
+                              <a href="http://www.bbc.co.uk/sport/football/36830068"><img class="img-thumbnail media-object" src="http://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/CB24/production/_90440025_utdrealmichigan_getty.jpg"></a>
+                            </div>
+                            <div class="media-body">
+                              <h4>Premier League pre-season: How far is your club travelling?</h4><small>Jul 19, 2016</small>
+                              <p>Premier League teams will clock up an estimated 172,413 miles in total during pre-season for friendlies and tours.</p>
+                              <p>Tottenham travel furthest with 22,468 miles, including a trip to Australia, followed by Chelsea's 14,345 miles.</p>
+                              <a href="http://www.bbc.co.uk/sport/football/36830068">Click here for the full story</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          <div class="media">
+                            <div class="media-left media-top">
+                              <a href="http://www.mirror.co.uk/sport/football/transfer-news/transfer-news-live-manchester-united-8440406"><img class="img-thumbnail media-object" src="http://www.mirror.co.uk/incoming/article4473393.ece/ALTERNATES/s510b/Geronimo-Rulli.jpg"></a>
+                            </div>
+                            <div class="media-body">
+                              <h4>Transfer news LIVE: Manchester United, City, Arsenal, Liverpool, Chelsea latest plus every done deal</h4><small>Jul 19, 2016</small>
+                              <p>Liverpool are on the verge of replacing Martin Skrtel with £4million defender Ragnar Klavan.</p>
+                              <p>Manchester United face a battle to sign No.1 target Paul Pogba, who has been warned a move to Old Trafford would be a step backwards in his career.</p>
+                              <a href="http://www.mirror.co.uk/sport/football/transfer-news/transfer-news-live-manchester-united-8440406">Click here for the full story</a>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
 
-          <p>Liverpool are on the verge of replacing Martin Skrtel with £4million defender Ragnar Klavan.</p>
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                      <h3>Table</h3>
+                      <div class="table-responsive">
+                        <table class="table table-striped">
+                          <thead>
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">Badge</th>
+                              <th scope="col">+/-</th>
+                              <th scope="col">Team</th>
+                              <th scope="col">P</th>
+                              <th scope="col">W</th>
+                              <th scope="col">D</th>
+                              <th scope="col">L</th>
+                              <th scope="col">F</th>
+                              <th scope="col">A</th>
+                              <th scope="col">GD</th>
+                              <th scope="col">Pts.</th>
+                              <th scope="col">Last Ten Games</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>
+                                <a href="/images/fantasy-football/badges/arsenal.jpg" data-lightbox="badges" data-title="Arsenal">
+                                  <img class="img-thumbnail" src="/images/fantasy-football/badges/arsenal.jpg" alt="Arsenal">
+                                </a>
+                              </td>
+                              <td></td>
+                              <td>Arsenal</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>
+                                <a href="/images/fantasy-football/badges/bournemouth.jpg" data-lightbox="badges" data-title="Bournemouth AFC">
+                                  <img alt="Bournemouth AFC" class="img-thumbnail" src="/images/fantasy-football/badges/bournemouth.jpg">
+                                </a>
+                              </td>
+                              <td></td>
+                              <td>Bournemouth</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>
+                                <a href="/images/fantasy-football/badges/burnley.jpg" data-lightbox="badges" data-title="Burnley FC">
+                                  <img alt="Burnley FC" class="img-thumbnail" src="/images/fantasy-football/badges/burnley.jpg">
+                                </a>
+                              </td>
+                              <td></td>
+                              <td>Burnley</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">4</th>
+                              <td>
 
-<p>Manchester United face a battle to sign No.1 target Paul Pogba, who has been warned a move to Old Trafford would be a step backwards in his career.</p>
+                                <a href="/images/fantasy-football/badges/chelsea.png" data-lightbox="badges" data-title="Chelsea FC">
+                                  <img alt="Chelsea FC" class="img-thumbnail" src="/images/fantasy-football/badges/chelsea.png">
+                                </a>
+                              </td>
+                              <td></td>
+                              <td>Chelsea</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr style="border-top:2px dashed black;border-bottom:2px dashed black;">
+                              <th scope="row">5</th>
+                              <td>
+                                <a href="/images/fantasy-football/badges/crystal-palace.jpg" data-lightbox="badges" data-title="Crystal Palace FC">
+                                  <img alt="Crystal Palace FC" class="img-thumbnail" src="/images/fantasy-football/badges/crystal-palace.jpg">
+                                </a>
+                              </td>
+                              <td></td>
+                              <td>Crystal Palace</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">6</th>
+                              <td>
+                                <a href="/images/fantasy-football/badges/everton.jpg" data-lightbox="badges" data-title="Everton FC">
+                                  <img alt="Everton FC" class="img-thumbnail" src="/images/fantasy-football/badges/everton.jpg">
+                                </a>
+                              </td>
+                              <td></td>
+                              <td>Everton</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">7</th>
+                              <td>
+                                <a href="/images/fantasy-football/badges/hull.jpg" data-lightbox="badges" data-title="Hull FC">
+                                  <img alt="Hull FC" class="img-thumbnail" src="/images/fantasy-football/badges/hull.jpg">
+                                </a>
+                              </td>
+                              <td></td>
+                              <td>Hull</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">8</th>
+                              <td>
+                                <a href="/images/fantasy-football/badges/leicester.jpg" data-lightbox="badges" data-title="Leicester City FC">
+                                  <img alt="Leicester City FC" class="img-thumbnail" src="/images/fantasy-football/badges/leicester.jpg">
+                                </a>
+                              </td>
+                              <td></td>
+                              <td>Leicester</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">9</th>
+                              <td></td>
+                              <td></td>
+                              <td>Liverpool</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">10</th>
+                              <td></td>
+                              <td></td>
+                              <td>Man City</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">11</th>
+                              <td></td>
+                              <td></td>
+                              <td>Man Utd</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">12</th>
+                              <td></td>
+                              <td></td>
+                              <td>Middlesbrough</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">13</th>
+                              <td></td>
+                              <td></td>
+                              <td>Southampton</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">14</th>
+                              <td></td>
+                              <td></td>
+                              <td>Stoke</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">15</th>
+                              <td></td>
+                              <td></td>
+                              <td>Sunderland</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">16</th>
+                              <td></td>
+                              <td></td>
+                              <td>Swansea</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">17</th>
+                              <td>
+                                <a href="/images/fantasy-football/badges/spurs.jpg" data-lightbox="badges" data-title="Tottenham"><img src="/images/fantasy-football/badges/spurs.jpg" class="img-thumbnail"></a>
+                              </td>
+                              <td></td>
+                              <td>Tottenham</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr style="border-top:2px dashed black;">
+                              <th scope="row">18</th>
+                              <td></td>
+                              <td></td>
+                              <td>Watford</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">19</th>
+                              <td></td>
+                              <td></td>
+                              <td>West Brom</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">20</th>
+                              <td></td>
+                              <td></td>
+                              <td>West Ham</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
 
-<a href="http://www.mirror.co.uk/sport/football/transfer-news/transfer-news-live-manchester-united-8440406">Click here for the full story</a>
-
-
-
-        </div>
-      </div>
-    </li>
-  </ul>
-</div>
-  
-  <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-                  <h3>Table</h3>
-                  <div class="table-responsive">
-                    <table class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th scope="col">#</th>
-                          <th scope="col">Badge</th>
-                          <th scope="col">+/-</th>
-                          <th scope="col">Team</th>
-                          <th scope="col">P</th>
-                          <th scope="col">W</th>
-                          <th scope="col">D</th>
-                          <th scope="col">L</th>
-                          <th scope="col">F</th>
-                          <th scope="col">A</th>
-                          <th scope="col">GD</th>
-                          <th scope="col">Pts.</th>
-                          <th scope="col">Last Ten Games</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row">1</th>
-                          <td>
-                            <a href="/images/fantasy-football/badges/arsenal.jpg" data-lightbox="badges" data-title="Arsenal">
-                              <img class="img-thumbnail" src="/images/fantasy-football/badges/arsenal.jpg">
-                            </a>
-                          </td>
-                          <td></td>
-                          <td>Arsenal</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">2</th>
-                          <td></td>
-                          <td></td>
-                          <td>Bournemouth</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">3</th>
-                          <td></td>
-                          <td></td>
-                          <td>Burnley</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">4</th>
-                          <td></td>
-                          <td></td>
-                          <td>Chelsea</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr style="border-top:2px dashed black;border-bottom:2px dashed black;">
-                          <th scope="row">5</th>
-                          <td></td>
-                          <td></td>
-                          <td>Crystal Palace</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">6</th>
-                          <td></td>
-                          <td></td>
-                          <td>Everton</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">7</th>
-                          <td></td>
-                          <td></td>
-                          <td>Hull</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">8</th>
-                          <td></td>
-                          <td></td>
-                          <td>Leicester</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">9</th>
-                          <td></td>
-                          <td></td>
-                          <td>Liverpool</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">10</th>
-                          <td></td>
-                          <td></td>
-                          <td>Man City</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">11</th>
-                          <td></td>
-                          <td></td>
-                          <td>Man Utd</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">12</th>
-                          <td></td>
-                          <td></td>
-                          <td>Middlesbrough</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">13</th>
-                          <td></td>
-                          <td></td>
-                          <td>Southampton</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">14</th>
-                          <td></td>
-                          <td></td>
-                          <td>Stoke</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">15</th>
-                          <td></td>
-                          <td></td>
-                          <td>Sunderland</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">16</th>
-                          <td></td>
-                          <td></td>
-                          <td>Swansea</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">17</th>
-                          <td><a href="/images/fantasy-football/badges/spurs.jpg" data-lightbox="badges" data-title="Tottenham"><img src="/images/fantasy-football/badges/spurs.jpg" class="img-thumbnail"></a></td>
-                          <td></td>
-                          <td>Tottenham</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr style="border-top:2px dashed black;">
-                          <th scope="row">18</th>
-                          <td></td>
-                          <td></td>
-                          <td>Watford</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">19</th>
-                          <td></td>
-                          <td></td>
-                          <td>West Brom</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-                        <tr>
-                          <th scope="row">20</th>
-                          <td></td>
-                          <td></td>
-                          <td>West Ham</td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                        </tr>
-
-                      </tbody>
-                    </table>
-    </div></div></div>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -820,7 +860,6 @@
                           <td></td>
                           <td></td>
                         </tr>
-
                       </tbody>
                     </table>
                   </div>

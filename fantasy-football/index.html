@@ -1,6 +1,6 @@
 <html>
-<head>
-<meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
     <title>Fantasy Football</title>
     <meta name="description" content="A fantasy football league for the 2016/17 UK season">
     <meta name="keywords" content="Sam Burbage, Github, Project, Fantasy Football">
@@ -17,168 +17,773 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-lightbox/0.7.0/bootstrap-lightbox.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.3.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-   <!--[if lt IE 9]>
+    <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
     <![endif]-->
-</head>
-<body style="background-color:forestgreen;">
+  </head>
+  <body style="background-color:forestgreen;">
     <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-                <a class="navbar-brand" href="#" style="display:inline-block;">Sam Burbage's Website</a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="/">Home</a></li>
-                    <li><a href="#">Fantasy Football</a></li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" style="display:inline-block;">Sam Burbage's Website</a>
         </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="#">Fantasy Football</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <div class="container-fluid">
-        <ol class="breadcrumb">You are here:
+      <ol class="breadcrumb">You are here:
         <li class="active">Fantasy Football</li>
-        </ol>
-        <div class="row-fluid">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <div class="page-header">
-                        <h1 class="text-center">Fantasy Football 2016/17</h1>
-                    </div>
-                    <div class="panel-body">
-                        <p>Welcome to the webpage set up for the running and display of a fantasy league for the UK football season, 2016/17.</p>
-                    </div>
-                </div>
+      </ol>
+      <div class="row-fluid">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="page-header">
+                <h1 class="text-center">Fantasy Football 2016/17</h1>
+              </div>
+              <div class="panel-body">
+                <p>Welcome to the webpage set up for the running and display of a fantasy league for the UK football season, 2016/17.</p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+      <div class="row-fluid">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="stack" id="navbar-collapse-2">
+            <ul class="nav nav-tabs nav-justified" style="background:#fff">
+              <li class="active">
+                <a href="#prem" data-toggle="tab">Premiership</a>
+              </li>
+              <li>
+                <a href="#champ" data-toggle="tab">Championship</a>
+              </li>
+              <li>
+                <a href="#divone" data-toggle="tab">League One</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="row-fluid">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="stack" id="navbar-collapse-2">
-                <ul class="nav nav-tabs nav-justified" style="background:#fff">
-                    <li class="active">
-                        <a href="#prem" data-toggle="tab">Premiership</a>
-                    </li>
-                    <li>
-                        <a href="#champ" data-toggle="tab">Championship</a>
-                    </li>
-                    <li>
-                        <a href="#divone" data-toggle="tab">League One</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        </div>
-        <div class="row-fluid">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="tab-content">
-                    <div class="tab-pane fade in active" id="prem">
-                        <div class="container-fluid">
-                        <div class="well">
-                            <h2>Premiership</h2>
-                            <div class="table-responsive">
-		<table class="table table-striped">
-      		<thead>
-        		<tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Badge</th>
-<th scope="col">+/-</th>
-                  <th scope="col">Team</th>
-                  <th scope="col">P</th>
-                  <th scope="col">W</th>
-                  <th scope="col">D</th>
-                  <th scope="col">L</th>
-                  <th scope="col">F</th>
-                  <th scope="col">A</th>
-                  <th scope="col">GD</th>
-                  <th scope="col">Pts.</th>
-                  <th scope="col">Last Ten Games</th>
-              </tr>
-          	</thead>
-<tbody>
-  <tr><th scope="row">1</th><td></td><td></td><td>Arsenal</td><td></td><td></td><td></td><td></td><td></td><td></td>
-  <td></td><td></td><td></td></tr><tr><th scope="row">2</th><td></td><td></td><td>Bournemouth</td><td></td><td></td><td></td><td></td><td></td><td></td>
-  <td></td><td></td><td></td></tr><tr><th scope="row">3</th><td></td><td></td><td>Burnley</td><td></td><td></td><td></td><td></td><td></td><td></td>
-  <td></td><td></td><td></td></tr>
-<tr><th scope="row">4</th><td></td><td></td><td>Chelsea</td><td></td><td></td><td></td><td></td><td></td><td></td>
-  <td></td><td></td><td></td></tr>
-<tr style="border-top:2px dashed black;border-bottom:2px dashed black;"><th scope="row">5</th><td></td><td></td><td>Crystal Palace</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">6</th><td></td><td></td><td>Everton</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">7</th><td></td><td></td><td>Hull</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">8</th><td></td><td></td><td>Leicester</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">9</th><td></td><td></td><td>Liverpool</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">10</th><td></td><td></td><td>Man City</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">11</th><td></td><td></td><td>Man Utd</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">12</th><td></td><td></td><td>Middlesbrough</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">13</th><td></td><td></td><td>Southampton</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">14</th><td></td><td></td><td>Stoke</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">15</th><td></td><td></td><td>Sunderland</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">16</th><td></td><td></td><td>Swansea</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">17</th>
-<td></td><td></td><td>Tottenham</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="border-top:2px dashed black;"><th scope="row">18</th><td></td><td></td><td>Watford</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">19</th><td></td><td></td><td>West Brom</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">20</th><td></td><td></td><td>West Ham</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      </div>
+      <div class="row-fluid">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="prem">
+              <div class="container-fluid">
+                <div class="well">
+                  <h2>Premiership</h2>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Badge</th>
+                          <th scope="col">+/-</th>
+                          <th scope="col">Team</th>
+                          <th scope="col">P</th>
+                          <th scope="col">W</th>
+                          <th scope="col">D</th>
+                          <th scope="col">L</th>
+                          <th scope="col">F</th>
+                          <th scope="col">A</th>
+                          <th scope="col">GD</th>
+                          <th scope="col">Pts.</th>
+                          <th scope="col">Last Ten Games</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td></td>
+                          <td></td>
+                          <td>Arsenal</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td></td>
+                          <td></td>
+                          <td>Bournemouth</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td></td>
+                          <td></td>
+                          <td>Burnley</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td></td>
+                          <td></td>
+                          <td>Chelsea</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr style="border-top:2px dashed black;border-bottom:2px dashed black;">
+                          <th scope="row">5</th>
+                          <td></td>
+                          <td></td>
+                          <td>Crystal Palace</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">6</th>
+                          <td></td>
+                          <td></td>
+                          <td>Everton</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">7</th>
+                          <td></td>
+                          <td></td>
+                          <td>Hull</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">8</th>
+                          <td></td>
+                          <td></td>
+                          <td>Leicester</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">9</th>
+                          <td></td>
+                          <td></td>
+                          <td>Liverpool</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">10</th>
+                          <td></td>
+                          <td></td>
+                          <td>Man City</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">11</th>
+                          <td></td>
+                          <td></td>
+                          <td>Man Utd</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">12</th>
+                          <td></td>
+                          <td></td>
+                          <td>Middlesbrough</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">13</th>
+                          <td></td>
+                          <td></td>
+                          <td>Southampton</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">14</th>
+                          <td></td>
+                          <td></td>
+                          <td>Stoke</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">15</th>
+                          <td></td>
+                          <td></td>
+                          <td>Sunderland</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">16</th>
+                          <td></td>
+                          <td></td>
+                          <td>Swansea</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">17</th>
+                          <td></td>
+                          <td></td>
+                          <td>Tottenham</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr style="border-top:2px dashed black;">
+                          <th scope="row">18</th>
+                          <td></td>
+                          <td></td>
+                          <td>Watford</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">19</th>
+                          <td></td>
+                          <td></td>
+                          <td>West Brom</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">20</th>
+                          <td></td>
+                          <td></td>
+                          <td>West Ham</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
 
-</tbody>
-      	</table>
-    </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade in" id="champ">
-                        <div class="container-fluid">
-                        <div class="well">
-                            <h2>Championship</h2>
-                            <div class="table-responsive">
-		<table class="table table-striped">
-      		<thead>
-        		<tr>
-                  <th scope="col">#</th>
-                  <th scope="col">+/-</th>
-                  <th scope="col">Team</th>
-                  <th scope="col">P</th>
-                  <th scope="col">W</th>
-                  <th scope="col">D</th>
-                  <th scope="col">L</th>
-                  <th scope="col">F</th>
-                  <th scope="col">A</th>
-                  <th scope="col">GD</th>
-                  <th scope="col">Pts.</th>
-                  <th scope="col">Last Ten Games</th>
-              </tr>
-          	</thead>
-<tbody>
-  <tr><th scope="row">1</th><td></td><td>Aston Villa</td><td></td><td></td><td></td><td></td><td></td><td></td>
-  <td></td><td></td><td></td></tr><tr style="border-bottom:2px dashed black;"><th scope="row">2</th><td></td><td>Barnsley</td><td></td><td></td><td></td><td></td><td></td><td></td>
-  <td></td><td></td><td></td></tr><tr><th scope="row">3</th><td></td><td>Birmingham</td><td></td><td></td><td></td><td></td><td></td><td></td>
-  <td></td><td></td><td></td></tr>
-<tr><th scope="row">4</th><td></td><td>Blackburn</td><td></td><td></td><td></td><td></td><td></td><td></td>
-  <td></td><td></td><td></td></tr>
-<tr><th scope="row">5</th><td></td><td>Brentford</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr style="border-bottom:2px dashed black;"><th scope="row">6</th><td></td><td>Brighton</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">7</th><td></td><td>Bristol City</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">8</th><td></td><td>Burton</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">9</th><td></td><td>Cardiff</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">10</th><td></td><td>Derby</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">11</th><td></td><td>Fulham</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">12</th><td></td><td>Huddersfield</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th scope="row">13</th><td></td><td>Ipswich</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">14</th><td></td><td>Leeds</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">15</th><td></td><td>Newcastle</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">16</th><td></td><td>Norwich</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">17</th><td></td><td>Nottm Forest</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">18</th><td></td><td>Preston</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">19</th><td></td><td>QPR</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">20</th><td></td><td>Reading</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr style="border-bottom:2px dashed black;"><th scope="row">21</th><td></td><td>Rotherham</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">22</th><td></td><td>Sheff Wed</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">23</th><td></td><td>Wigan</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><th scope="row">24</th><td></td><td>Wolves</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-
-</tbody>
-      	</table>
-    </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade in" id="divone">
-                        <div class="well">
-                            <h2>League One</h2>
-                        </div>
-                    </div>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
+              </div>
             </div>
+            <div class="tab-pane fade in" id="champ">
+              <div class="container-fluid">
+                <div class="well">
+                  <h2>Championship</h2>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">+/-</th>
+                          <th scope="col">Team</th>
+                          <th scope="col">P</th>
+                          <th scope="col">W</th>
+                          <th scope="col">D</th>
+                          <th scope="col">L</th>
+                          <th scope="col">F</th>
+                          <th scope="col">A</th>
+                          <th scope="col">GD</th>
+                          <th scope="col">Pts.</th>
+                          <th scope="col">Last Ten Games</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td></td>
+                          <td>Aston Villa</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr style="border-bottom:2px dashed black;">
+                          <th scope="row">2</th>
+                          <td></td>
+                          <td>Barnsley</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td></td>
+                          <td>Birmingham</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td></td>
+                          <td>Blackburn</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td></td>
+                          <td>Brentford</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr style="border-bottom:2px dashed black;">
+                          <th scope="row">6</th>
+                          <td></td>
+                          <td>Brighton</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">7</th>
+                          <td></td>
+                          <td>Bristol City</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">8</th>
+                          <td></td>
+                          <td>Burton</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">9</th>
+                          <td></td>
+                          <td>Cardiff</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">10</th>
+                          <td></td>
+                          <td>Derby</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">11</th>
+                          <td></td>
+                          <td>Fulham</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">12</th>
+                          <td></td>
+                          <td>Huddersfield</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">13</th>
+                          <td></td>
+                          <td>Ipswich</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">14</th>
+                          <td></td>
+                          <td>Leeds</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">15</th>
+                          <td></td>
+                          <td>Newcastle</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">16</th>
+                          <td></td>
+                          <td>Norwich</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">17</th>
+                          <td></td>
+                          <td>Nottm Forest</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">18</th>
+                          <td></td>
+                          <td>Preston</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">19</th>
+                          <td></td>
+                          <td>QPR</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">20</th>
+                          <td></td>
+                          <td>Reading</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr style="border-bottom:2px dashed black;">
+                          <th scope="row">21</th>
+                          <td></td>
+                          <td>Rotherham</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">22</th>
+                          <td></td>
+                          <td>Sheff Wed</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">23</th>
+                          <td></td>
+                          <td>Wigan</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">24</th>
+                          <td></td>
+                          <td>Wolves</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade in" id="divone">
+              <div class="well">
+                <h2>League One</h2>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

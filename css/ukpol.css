@@ -42,19 +42,19 @@ Some of the fonts are licensed - so only freely available fonts are used below.
 
 /*Political Parties*/
 .conservative-main {background: #0087dc!important;color: #fff;font-family: "Lucida Sans Unicode";}
-.conservative-second {background:#6ed700; color: #fff; font-family: "Lucida Sans Unicode"}
-.libdem-main {background:#FDBB30; color: #fff; font-family: arial}
-.libdem-second {background:#00929F; color: #fff; font-family: arial}
-.labour-main {background:#d50000; color: #fff; font-family: 'Libre Baskerville', serif;}
-.labour-second {background:#9B301C; color: #fff; font-family: 'Libre Baskerville', serif;}
-.snp-main {background:#FFF95D; color: #444; font-family: Helvetica}
-.snp-second {background:#0A2C50; color: #fff; font-family: Helvetica}
-.plaid-main {background:#3F8428; color: #fff; font-family: Helvetica}
-.plaid-second {background:#e1cc00; color: #fff; font-family: Helvetica}
-.green-main {background:#008066; color: #fff; font-family: "Open Sans"}
-.green-second {background:#8dc63f; color: #fff; font-family: "Open Sans"}
-.ukip-main {background:#EFE600; color: #444; font-family: Arial}
-.ukip-second {background:#B3009D; color: #fff; font-family: Arial}
+.conservative-second {background:#6ed700!important; color: #fff; font-family: "Lucida Sans Unicode"}
+.libdem-main {background:#FDBB30!important; color: #fff; font-family: arial}
+.libdem-second {background:#00929F!important; color: #fff; font-family: arial}
+.labour-main {background:#d50000!important; color: #fff; font-family: 'Libre Baskerville', serif;}
+.labour-second {background:#9B301C!important; color: #fff; font-family: 'Libre Baskerville', serif;}
+.snp-main {background:#FFF95D!important; color: #444; font-family: Helvetica}
+.snp-second {background:#0A2C50!important; color: #fff; font-family: Helvetica}
+.plaid-main {background:#3F8428!important; color: #fff; font-family: Helvetica}
+.plaid-second {background:#e1cc00!important; color: #fff; font-family: Helvetica}
+.green-main {background:#008066!important; color: #fff; font-family: "Open Sans"}
+.green-second {background:#8dc63f!important; color: #fff; font-family: "Open Sans"}
+.ukip-main {background:#EFE600!important; color: #444; font-family: Arial}
+.ukip-second {background:#B3009D!important; color: #fff; font-family: Arial}
 
 /*Executives*/
 .parliament {background-color: #085196; color: #fff; font-family:"Gill Sans","Helvetica Neue",Helvetica,sans-serif; }

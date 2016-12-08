@@ -77,26 +77,20 @@
         <div class="row-fluid">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="table-responsive">
-  			<style type="text/css">
-  table.tableizer-table {
-    font-size: 12px;
-    border: 1px solid #CCC;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .tableizer-table td {
-    padding: 4px;
-    margin: 3px;
-    border: 1px solid #CCC;
-  }
-  
-  .tableizer-table th {
-    background-color: #104E8B;
-    color: #FFF;
-    font-weight: bold;
-  }
+  			<script type="javascript">
+var main = function() {
+  $('tr:contains("Labour")').addClass('labour-main');
+  $('tr:contains("Conservative")').addClass('conservative-main');
+  $('tr:contains("SNP")').addClass('snp-main');
+  $('tr:contains("DUP")').addClass('dup-main');
+  $('tr:contains("UUP")').addClass('uup-main');
+  $('tr:contains("Plaid Cymru")').addClass('plaid-main');
+  $('tr:contains("Sinn")').addClass('sinn-main');
+  $('tr:contains("SDLP")').addClass('sdlp-main');
+};
+$(document).ready(main);
 
-</style>
+</script>
 <table class="tableizer-table">
   <thead>
     <tr>

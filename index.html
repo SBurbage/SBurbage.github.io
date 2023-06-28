@@ -24,17 +24,13 @@
     <![endif]-->
 </head>
 <body>
-    <nav class="navbar navbar-expand" role="navigation">
-        <a class="navbar-brand" href="#">Sam Burbage's Website</a>
-        <div class="navbar-collapse collapse in" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/classic-novels">Classic Novels</a></li>
-                <li class="nav-item"><a class="nav-link" href="/jokes">Jokes</a></li>
-                <li class="nav-item"><a class="nav-link" href="/stories-and-scripts">Stories and Scripts</a></li>  
-            </ul>
-        </div>
-    </nav>
+   <div id="main-nav"></div>
+
+<script>
+    $(function () {
+        $("#main-nav").load("/infrastructure/main-navbar.html");
+    });
+</script>
     <div class="container-fluid">
         <div class="row-fluid">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
